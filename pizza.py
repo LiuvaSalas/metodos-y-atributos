@@ -53,7 +53,7 @@ class Pizza:
         Return:
         - Mensaje basado en booleano True/False de acuerdo a la condicion de los ingredientes ingresados.
         """        
-        self.i_proteico = input("Por favor ingrese el tipo de proteína (pollo, uno, carne vegevactal): ")
+        self.i_proteico = input("Por favor ingrese el tipo de proteína (pollo, uno, carne vegetal): ")
         self.vegetal_1 =  input("Por favor ingrese el primer ingrediente vegetal (tomates, aceitunas, champiñones): ")
         self.vegetal_2 =  input("Por favor ingrese el segundo ingrediente vegetal (tomates, aceitunas, champiñones): ")
         self.t_masa =  input("Por favor ingrese el tipo de masa (tradicional, delgada): ")
